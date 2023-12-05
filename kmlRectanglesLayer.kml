@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+    <!-- Red Rectangle -->
+    <Placemark>
+      <name>Red Rectangle</name>
+      <Style>
+        <PolyStyle>
+          <color>400000FF</color> <!-- Red: 25% opacity -->
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              14.34008160205399,48.13876428333261,0
+              14.339773252809842,48.13993514432555,0
+              14.331000182899304,48.13889974905399,0
+              14.331308731627086,48.13772888784908,0
+              14.34008160205399,48.13876428333261,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Orange Rectangle -->
+    <Placemark>
+      <name>Orange Rectangle</name>
+      <Style>
+        <PolyStyle>
+          <color>400080FF</color> <!-- Orange: 25% opacity -->
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              14.339919105000531,48.13883734399574,0
+              14.339657868471043,48.13982929884904,0
+              14.331162693360541,48.138826698887016,0
+              14.331424093539777,48.13783474385981,0
+              14.339919105000531,48.13883734399574,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Green Rectangle -->
+    <Placemark>
+      <name>Green Rectangle</name>
+      <Style>
+        <PolyStyle>
+          <color>4000FF00</color> <!-- Green: 25% opacity -->
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              14.339443210627556,48.13906428590239,0
+              14.339326583705898,48.13950712289438,0
+              14.331638623546135,48.1385997855017,0
+              14.331755316584076,48.138156948439445,0
+              14.339443210627556,48.13906428590239,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+  </Document>
+</kml>
